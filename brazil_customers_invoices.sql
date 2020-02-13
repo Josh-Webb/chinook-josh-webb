@@ -1,1 +1,1 @@
-﻿
+﻿SELECT c.FirstName, c.LastName, i.InvoiceId, i.BillingCountry, i.InvoiceDate FROM Customer c LEFT JOIN Invoice i ON c.CustomerId = i.CustomerId WHERE c.Country='Brazil';
