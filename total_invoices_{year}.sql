@@ -1,1 +1,6 @@
-﻿
+﻿SELECT COUNT(InvoiceId) AS '2009 and 2011 Sales'
+FROM Invoice
+WHERE InvoiceDate BETWEEN '2008-12-31 23:59:59.999' AND '2009-12-31 23:59:59.999'
+OR InvoiceDate BETWEEN '2010-12-31 23:59:59.999' AND '2011-12-31 23:59:59.999';
+
+--How many Invoices were there in 2009 and 2011?
