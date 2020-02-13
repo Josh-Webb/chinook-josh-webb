@@ -8,3 +8,5 @@ join invoice i on il.InvoiceId = i.InvoiceId
 group by ar.Name
 order by sum(il.quantity) desc;
 /*uses sum twice so we can use the total in our select*/
+
+--Provide a query that shows the top 3 best selling artists.

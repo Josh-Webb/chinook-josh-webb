@@ -13,3 +13,5 @@ GROUP BY e.FirstName, e.LastName, e.EmployeeId;*/
 
 /*The WHERE LIKE isn't neccesary in this instance 
 but will be useful later.*/
+
+--Provide a query that shows total sales made by each sales agent.

@@ -8,3 +8,5 @@ WHERE E.Title LIKE '%Sales%'
 AND YEAR(I.InvoiceDate) = 2009
 GROUP BY E.FirstName
 ORDER BY TotalAgentSales DESC
+
+--Which sales agent made the most in sales in 2009?
